@@ -1355,6 +1355,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/nothing/Tetris/proprietary/vendor/lib64/APUWareApusysAidlServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareApusysAidlServer.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/APUWareUtilsAidlServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsAidlServer.so \
+    vendor/nothing/Tetris/proprietary/vendor/lib64/android.frameworks.displayservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.displayservice@1.0.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/android.hardware.biometrics.common-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.common-V3-ndk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/android.hardware.biometrics.fingerprint-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.fingerprint-V3-ndk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/camera/node/com.nothing.node.b2y.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/node/com.nothing.node.b2y.so \
