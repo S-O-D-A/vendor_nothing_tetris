@@ -59,146 +59,75 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     vendor/nothing/Tetris/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
     vendor/nothing/Tetris/proprietary/vendor/bin/conninfra_loader:$(TARGET_COPY_OUT_VENDOR)/bin/conninfra_loader \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/ParameterDB.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/ParameterDB.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/ParameterDB_ae.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/ae/ParameterDB_ae.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6878/ParameterDB_ae.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6878/ParameterDB_ae.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/ParameterDB_af.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/af/ParameterDB_af.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6878/ParameterDB_af.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6878/ParameterDB_af.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/ParameterDB_awb.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/awb/ParameterDB_awb.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6878/ParameterDB_awb.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6878/ParameterDB_awb.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/ParameterDB_awbsync.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/ParameterDB_awbsync.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/mt6878/ParameterDB_awbsync.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/mt6878/ParameterDB_awbsync.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/ParameterDB_feature.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/feature/ParameterDB_feature.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6878/ParameterDB_feature.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6878/ParameterDB_feature.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/ParameterDB_flash.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/flash/ParameterDB_flash.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/mt6878/ParameterDB_flash.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/flash/mt6878/ParameterDB_flash.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/ParameterDB_flashcali.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/ParameterDB_flashcali.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/mt6878/ParameterDB_flashcali.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/mt6878/ParameterDB_flashcali.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6878/ParameterDB.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/mt6878/ParameterDB.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6878/sw_top_control_data.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/mt6878/sw_top_control_data.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6878/top_control_data.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/mt6878/top_control_data.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/pd/ParameterDB_pd.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/pd/ParameterDB_pd.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/pd/mt6878/ParameterDB_pd.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/pd/mt6878/ParameterDB_pd.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/ParameterDB_pipeline.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/ParameterDB_pipeline.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6878/ParameterDB_pipeline.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6878/ParameterDB_pipeline.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/sw_top_control_data.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/sw_top_control_data.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/ParameterDB_tone.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tone/ParameterDB_tone.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6878/ParameterDB_tone.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6878/ParameterDB_tone.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/top_control_data.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/top_control_data.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3c_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3c_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3c_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3c_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3c_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3c_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3c_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3c_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3ctxd_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3ctxd_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3ctxd_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3ctxd_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3ctxd_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3ctxd_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3ctxd_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc16b3ctxd_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx499_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx598_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx598_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx598_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx598_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx598_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx598_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx598_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx598_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx709o_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx758_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx758_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx758_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx758_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx758_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx758_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx758_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx758_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dualo_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766o_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx866_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882txd_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882txd_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882txd_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882txd_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882txd_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882txd_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882txd_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx882txd_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx989_mipi_raw/mt6878/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6878/ISP_info.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6878/ISP_info.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sxo_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cs_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cs_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cs_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cs_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cs_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cs_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cs_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cs_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cssj_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cssj_mipi_raw/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cssj_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cssj_mipi_raw/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cssj_mipi_raw/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cssj_mipi_raw/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cssj_mipi_raw/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/sc202cssj_mipi_raw/mt6878/ISP_param.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/ISP_info.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/ISP_info.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/ISP_mapping.db \
-    vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6878/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6878/ISP_mapping.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6878/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6878/ISP_param.db \
     vendor/nothing/Tetris/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/mt6878/ISP_info.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/mt6878/ISP_info.db \
@@ -217,8 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/bin/hw/android.hardware.thermal-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal-service.mediatek \
     vendor/nothing/Tetris/proprietary/vendor/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0 \
     vendor/nothing/Tetris/proprietary/vendor/bin/hw/android.hardware.usb.gadget-aidl-service.mediatekv1.0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb.gadget-aidl-service.mediatekv1.0 \
-    vendor/nothing/Tetris/proprietary/vendor/bin/hw/arm.mali.platform-service.mediatek.mt6878:$(TARGET_COPY_OUT_VENDOR)/bin/hw/arm.mali.platform-service.mediatek.mt6878 \
-    vendor/nothing/Tetris/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/nothing/Tetris/proprietary/vendor/bin/hw/mt6878/android.hardware.graphics.allocator-V2-service-mediatek.mt6878:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6878/android.hardware.graphics.allocator-V2-service-mediatek.mt6878 \
     vendor/nothing/Tetris/proprietary/vendor/bin/hw/mt6878/arm.mali.platform-service.mediatek.mt6878:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6878/arm.mali.platform-service.mediatek.mt6878 \
     vendor/nothing/Tetris/proprietary/vendor/bin/hw/mt6878/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6878/camerahalserver \
@@ -1388,17 +1315,11 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/egl/mt6878/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/mt6878/libGLES_mali.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/gc08a8_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc08a8_mipi_raw_IdxMgr.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/gc16b3c2_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc16b3c2_mipi_raw_IdxMgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/gc16b3c_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc16b3c_mipi_raw_IdxMgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/gc16b3c_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc16b3c_mipi_raw_tuning.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/gc16b3ctxd_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc16b3ctxd_mipi_raw_IdxMgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/gc16b3ctxd_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc16b3ctxd_mipi_raw_tuning.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-impl-mediatek.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/audio.primary.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mediatek.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/audio.primary.mt6878.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6878.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/audio.r_submix.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mediatek.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/hw/audio.r_submix.mt6878.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6878.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/hwcomposer.mtk_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mtk_common.so \
@@ -1420,11 +1341,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal_hal.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.atms_aidl@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.atms_aidl@1.0-impl.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice_aidl@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.bgservice_aidl@1.0-impl.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.1-impl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal_aidl@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.isphal_aidl@1.0-impl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.gnss-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.gnss-impl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.gnss.batching-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.gnss.batching-impl.so \
@@ -1432,98 +1350,37 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/imx882_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx882_mipi_raw_IdxMgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/imx882_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx882_mipi_raw_tuning.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/imx882txd_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx882txd_mipi_raw_IdxMgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/imx882txd_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx882txd_mipi_raw_tuning.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.ae.pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.pipe.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.ae.stat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.stat.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.af.assist.models1d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.assist.models1d.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.af.assist.models2d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.assist.models2d.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.af.assist.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.assist.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.af.assist.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.assist.utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.core.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.aishutter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.aishutter.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.alsflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.alsflicker.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.awb.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.awb.core.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.awbsync.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.awbsync.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.cculog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.cculog.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.custom.ae.flow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.custom.ae.flow.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.custom.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.custom.ae.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.custom.af.flow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.custom.af.flow.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.custom.awb.flow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.custom.awb.flow.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.custom.shading.flow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.custom.shading.flow.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.custom.stt.flow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.custom.stt.flow.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.flash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.flash.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.flicker.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.log.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.sensors.color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.sensors.color.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.sensors.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.sensors.flicker.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib3a.stat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.stat.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libBasicModule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBasicModule.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libDBAccessor_ISP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDBAccessor_ISP.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDR.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFrameRecord.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libMtkMediaController.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkMediaController.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libMtkMediaController_SAL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkMediaController_SAL.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libMtkSpeechEnh_swb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh_swb.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libSonyIMX519PdafWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafWrapper.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libVkLayer_mtk_rt_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_mtk_rt_sdk.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bsscore.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_iir.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libaaa_aaautil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_aaautil.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libaaa_afassist_V2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_afassist_V2.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libaaa_afassistctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_afassistctrl.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaaa_feature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_feature.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libaaa_gma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_gma.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaaa_ltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_ltm.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaaa_ltmx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_ltmx.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaaa_tnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_tnc.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaaa_toneutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_toneutil.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libaal_cust_func.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_cust_func.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_key.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libaal_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_sec.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaalservice.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadpcmdec_mtk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiawb_fs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_fs.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiawb_fs_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_fs_model.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiawb_moon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiawb_moon_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon_model.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiawb_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_p1ggm.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiawb_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_sun.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiawb_sun_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_sun_model.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaibc_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaibc_tuning_p2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaibc_tuning_p3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p3.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaibc_tuning_p4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p4.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaicapturecore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaicapturecore.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaidepth_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidepth_tuning.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libaimemc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaimemc.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiseg_cache.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiseg_cache.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiseg_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiseg_model.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiseg_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiseg_p1ggm.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiseg_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiseg_sun.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiselector.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libalCFR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalCFR.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libalgo.aosp.log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalgo.aosp.log.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libalsautils-stock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils-stock.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libapiwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapiwrapper.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libappgamepq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappgamepq.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw_batch.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libapudcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapudcutils.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libarcsoft_aiscenedetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_aiscenedetection.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
@@ -1570,117 +1427,21 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk_pure.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.3a_isp.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.3a_isp.utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.afmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.afmgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.chdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.chdr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.feature_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.feature_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.fw_me_tcy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.fw_me_tcy.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.3aProvider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.3aProvider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.afassitmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.afassitmgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.cctsvr.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.cctsvr.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.ctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.ctrl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.custom.ae.HDRStateEvaluator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.custom.ae.HDRStateEvaluator.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.custom.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.guard.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.guard.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.ircutdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.ircutdrv.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.lensdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.lensdrv.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.log.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.lscMgrApi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.lscMgrApi.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.oisdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.oisdrv.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.ozoomdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.ozoomdrv.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.pdstatmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.pdstatmgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.policy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.policy.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.tofdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.tofdrv.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.ae.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.ae.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.ai3a_v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.ai3a_v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.awb_v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.awb_v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.dng.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.dng.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.flash.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.flash.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.flicker.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.flicker.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.ir.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.ir.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.lsctbl.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.lsctbl.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.nvram.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.nvram.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.sensor.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.sensor.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.strobe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.strobe.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.stt_v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.stt_v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.hal3a.v3.tone.mgr.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.tone.mgr.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.halisp.SwTopCtrlMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halisp.SwTopCtrlMgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.halisp.TopCtrlMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halisp.TopCtrlMgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.halisp.TuningDataProvider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halisp.TuningDataProvider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.halisp.TuningDataProviderFactory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halisp.TuningDataProviderFactory.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.halisp.imp.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halisp.imp.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.halisp.plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halisp.plugin.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.halisp.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halisp.utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.halisp.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halisp.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.halsensor.hwintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halsensor.hwintegration.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.halsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halsensor.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.isptuning.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.isptuning.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.peripheralcontroller.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.peripheralcontroller.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.sensor_mode_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.sensor_mode_helper.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.sensor_mode_helper_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.sensor_mode_helper_custom.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.tuningcachemgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.tuningcachemgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.utils.sensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.utils.sensorprovider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.vhdr.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcam.zoomoverridemgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.zoomoverridemgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam_ipc_hal3a_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam_ipc_hal3a_client.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam_ipc_nvbuf_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam_ipc_nvbuf_client.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcam_nothing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam_nothing.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.BSSwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.BSSwrapper.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.InlineCompGyro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.InlineCompGyro.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.Mfbllwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.Mfbllwrapper.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.WarpMapResizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.WarpMapResizer.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.aibc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.aibc.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.aibcwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.aibcwrapper.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.ainr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.ainr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.bss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.bss.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.c3d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.c3d.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.dngop.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.eis.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.fdft.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.fsc.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.fus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.fus.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.gyro.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.hdr10p.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.hdr10p.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.lmv.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.lsc.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.mcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.mcnr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.mfnr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.n3d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.n3d.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.platform.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.platform2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.platform2.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.sat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.sat.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.tsfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.tsfs.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.utility.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.vaidepth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.vaidepth.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.vsdofUtil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.vsdofUtil.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.vsf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.vsf.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcamalgo.warp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.warp.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamera.custom.af_assist_buf_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera.custom.af_assist_buf_mgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamera.custom.af_assist_buf_mgr_open.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera.custom.af_assist_buf_mgr_open.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamera.custom.af_assist_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera.custom.af_assist_mgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamera.custom.af_assist_pdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera.custom.af_assist_pdp.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamera.customae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera.customae.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcamera.customflk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera.customflk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera2ndk_vendor.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.camera.3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.camera.3a.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.camera.isp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.camera.isp.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.camera.sensors.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.camera.sensors.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.camera_calibration.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.camera_calibration.core.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.camera_exif.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.camera_exif.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.cfg_setting.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.cfg_setting.core.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.eis.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.flashlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.flashlight.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.imgsensor.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.imgsensor.core.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.lens.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.lens.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.plugin.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libcameracustom_camera_db_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom_camera_db_ext.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcamxextension_night.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxextension_night.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcarrierconfig.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libccd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccd.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl_ndk.mtk.vndk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcodec2_fsr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_fsr.so \
@@ -1702,27 +1463,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdirac.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfacerelight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfacerelight.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.aiseg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.aiseg.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.fwmvp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.fwmvp.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.hdr10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.hdr10.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.mcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.mcnr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.stereo.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.platform.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.vsdof.3a_info_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.3a_info_provider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.vsdof.fd_info_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.fd_info_provider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.hal.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.vsdof.nvram_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.nvram_provider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature.vsdof.ot_info_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.ot_info_provider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature_eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_eis.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature_fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_fsc.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeature_vrp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_vrp.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeatureiodrv_mem.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libfeaturepolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeaturepolicy.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libfeaturepolicy_dbhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeaturepolicy_dbhandler.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfgauge_gm30.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
@@ -1731,7 +1473,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_aux.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpud.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_extra.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_metadata.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
@@ -1749,53 +1490,20 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifcutils_mtk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libimage_io.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimage_io.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libimagebuffer_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimagebuffer_wrapper.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgstream-custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgstream-custom.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgstream-drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgstream-drv.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgstream-guard.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgstream-guard.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_adl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_adl.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_cmt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_cmt.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_custom.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_daemon.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_dip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_dip.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_drvcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_drvcommon.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_gce.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_gce.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_main.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_me.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_me.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_pqdip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_pqdip.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_sensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_sensor.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_system.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_taskhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_taskhandler.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_tdrhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_tdrhal.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_tile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_tile.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_traw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_traw.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libimgsys_wpe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsys_wpe.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_mtk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_ulit.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipsec_ims_shr.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libisetrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libisetrusty.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libispfeature_mtkcam.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libispfeature_mtkcam.v4l2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libispinterpreter_mtkcam.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libispinterpreter_mtkcam.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libjni_rater_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_rater_api.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha-oal_vendor.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha_vendor.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/liblpnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpnr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmgr3a.adapt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmgr3a.adapt.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmmagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmagent.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmml.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmmlpqImpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmlpqImpl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmprofile.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnetlink_v104.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmorpho_RapidEffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_RapidEffect.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmorpho_RawDeepDenoise.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_RawDeepDenoise.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmorpho_video_stabilizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_video_stabilizer.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmouth_mask_detection.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmouth_mask_detection.arcsoft.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmp3dec_mtk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
@@ -1803,146 +1511,17 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtk-rilop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-rilop.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtk_bsg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_bsg.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_drvb.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.atmseventmgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam.debugwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.debugwrapper.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.eventcallback.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam.featurepipe.capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.capture.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam.featurepipe.depthmap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.depthmap.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam.featurepipe.p2g.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.p2g.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam.featurepipe.streaming.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.streaming.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam.featurepipe.vsdof.wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.vsdof.wrapper.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam.logicalcaminfoprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.logicalcaminfoprovider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam.logicalmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.logicalmodule.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam.ndd.limit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.ndd.limit.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_aicolor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_aicolor.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_aie.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_aie.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_android_zslprocessor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_android_zslprocessor.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_aov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_aov.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_aov_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_aov_cust.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_aov_plat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_aov_plat.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_aov_sys.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_aov_sys.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_buffer_flush.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_buffer_flush.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_c2psperfctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_c2psperfctrl.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_ca.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_calibration_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_calibration_provider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_camcontroller.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_camcontroller.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_camcoordinator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_camcoordinator.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_camctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_camctrl.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_camdeliver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_camdeliver.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_camsys_sensor_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_camsys_sensor_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_coredev.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_coredev.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_cputrack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_cputrack.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_custom.calibration_convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_custom.calibration_convertor.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_custom.metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_custom.metadata.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_custom.policy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_custom.policy.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_custom.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_custom.utils.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_custom_feature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_custom_feature.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_custom_sampleselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_custom_sampleselector.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_custom_zsdhdrselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_custom_zsdhdrselector.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_custzone.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_custzone.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_debugutils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_detectnode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_detectnode.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_devicemgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_devicemgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_diputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_diputils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_dma_map.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_dma_map.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_exif.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_exif.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_externalisploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_externalisploader.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_faceResultHandler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_faceResultHandler.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_fdWarpConvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_fdWarpConvert.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_fdsan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_fdsan.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_fdsan_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_fdsan_wrapper.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_feature_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_feature_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_grallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_grallocutils.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_grallocutils_aidlv1helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_grallocutils_aidlv1helper.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal3a_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal3a_provider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_aidl_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_aidl_common.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_aidl_device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_aidl_device.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_aidl_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_aidl_provider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_aidl_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_aidl_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_android_app_cbadaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_android_app_cbadaptor.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_android_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_android_common.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_android_device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_android_device.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_android_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_android_provider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_android_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_android_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_aov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_aov.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_core_app.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_core_app.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_core_app_cbadaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_core_app_cbadaptor.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_core_device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_core_device.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_core_devicesessionpolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_core_devicesessionpolicy.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_core_featurepolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_core_featurepolicy.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_core_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_core_provider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_core_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_core_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_custom.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_custom_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_custom_provider.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_custom_state.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_custom_state.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_custom_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_custom_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_hidl_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_hidl_common.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_hidl_device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_hidl_device.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_hidl_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_hidl_provider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hal_hidl_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hal_hidl_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_halisp_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_halisp_custom.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hwnode.jpegnode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hwnode.jpegnode.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hwnode.p2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hwnode.p2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hwnode.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hwutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hwutils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hwutils_android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hwutils_android.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_hwutils_poweronoffcontroller.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hwutils_poweronoffcontroller.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_imgbuf_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_imgbuf_v2.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_ipc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_ipc_core.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_ipc_wrapper_common_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_ipc_wrapper_common_client.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_ipc_wrapper_common_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_ipc_wrapper_common_server.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_ipc_wrapper_mtk_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_ipc_wrapper_mtk_client.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_ipc_wrapper_mtk_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_ipc_wrapper_mtk_server.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_jsonconvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_jsonconvertor.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_jsondata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_jsondata.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_mapping_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_mapping_mgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_metaconv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_metaconv.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_metadata.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_metastore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_metastore.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_modulefactory_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_custom.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_modulefactory_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulehelper.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_p1node.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_p1node.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_packutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_packutils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_perfctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_perfctrl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_perfctrl_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_perfctrl_wrapper.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pip.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_pipeline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipeline.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_pipeline_fbm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipeline_fbm.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_pipelinemodel_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_capture.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_pipelinemodel_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_session.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_pipelinemodel_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_pipelinepolicy-security.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinepolicy-security.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_pipelinepolicy-smvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinepolicy-smvr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_pipelinepolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinepolicy.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_pipelinepolicy_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinepolicy_factory.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_pipemgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipemgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_postprocprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_postprocprovider.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_preprocnode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_preprocnode.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_prerelease.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_prerelease.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_proc.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_request_requlator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_request_requlator.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_resourcedecision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_resourcedecision.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_resourcedecision_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_resourcedecision_custom.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_salmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_salmgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_sensorcontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_sensorcontrol.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_simager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_simager.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_smvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_smvr.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_stdutils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_streamutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_streamutils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_synchelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_synchelper.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_sysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_sysutils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_taskmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_taskmgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_thirdparty.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_thirdparty.core.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_thirdparty.customer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_thirdparty.customer.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_thirdparty.customzone.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_thirdparty.customzone.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_thirdparty.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_thirdparty.mtk.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_thirdparty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_thirdparty.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_tuning_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_ulog.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcam_zsl_customselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_zsl_customselector.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcm_ipc_dummy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcm_ipc_dummy.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkconfig.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkconfigutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkconfigutils.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcutils.so \
@@ -1997,17 +1576,10 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmvpuop_mtk_cv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpuop_mtk_cv.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libmvpuop_mtk_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpuop_mtk_nn.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libn3d_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libn3d_tuning.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libneuron_adapter_mc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter_mc.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libneuron_adapter_mgvi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter_mgvi.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_graph_delegate.mtk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libneuron_runtime.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_runtime.7.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libneuron_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_runtime.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libneuron_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_wrapper.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnir_neon_driver.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnir_neon_driver_ndk.mtk.vndk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libnoteengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnoteengine.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libnpagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpagent.so \
@@ -2022,15 +1594,10 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libpda_usdriver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpda_usdriver.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libportrait_repair_apu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libportrait_repair_apu.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libpq_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_sec.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libpqconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqconfig.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libpqhdrmetaparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqhdrmetaparser.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libpqsharememory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqsharememory.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libpqtuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqtuning.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libpqxmlflagparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqxmlflagparser.so \
@@ -2068,10 +1635,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libultrahdr_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libultrahdr_mtk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liburee_meta_drmkeyinstall.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libvainr_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvainr_model.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_oal.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodecdrv_header_stub.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libvega_face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvega_face.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libvia-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvia-ril.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libviamipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviamipc-ril.so \
@@ -2090,7 +1655,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libvow_comp_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_comp_test.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/libwa_opticalzoomfactor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_opticalzoomfactor.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libwifical.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifical.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/libwifinvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifinvram.so \
@@ -2484,15 +2048,9 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Tetris/proprietary/vendor/lib64/mt6878/sc202cs_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/sc202cs_mipi_raw_tuning.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/mt6878/sc202cssj_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/sc202cssj_mipi_raw_IdxMgr.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/mt6878/sc202cssj_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/sc202cssj_mipi_raw_tuning.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/mtk000_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtk000_mipi_raw_IdxMgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/mtk000_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtk000_mipi_raw_tuning.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/mtk_lbs_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtk_lbs_service-impl.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/ov50d40_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50d40_mipi_raw_IdxMgr.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/s5kgn9sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgn9sp_mipi_raw_IdxMgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/sc202cs_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sc202cs_mipi_raw_IdxMgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/sc202cs_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sc202cs_mipi_raw_tuning.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/sc202cssj_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sc202cssj_mipi_raw_IdxMgr.so \
-    vendor/nothing/Tetris/proprietary/vendor/lib64/sc202cssj_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sc202cssj_mipi_raw_tuning.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/soundfx/libdiraceffect_NT.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdiraceffect_NT.so \
     vendor/nothing/Tetris/proprietary/vendor/lib64/soundfx/libspatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libspatializer.so \
@@ -2619,11 +2177,89 @@ PRODUCT_PACKAGES += \
     vendor.noth.hardware.sensor.sensor_extension-service.xml
 
 PRODUCT_PACKAGES += \
+    ParameterDB_ae_ParameterDB_ae_symlink \
+    ParameterDB_af_ParameterDB_af_symlink \
+    ParameterDB_awb_ParameterDB_awb_symlink \
+    ParameterDB_awbsync_ParameterDB_awbsync_symlink \
+    ParameterDB_feature_ParameterDB_feature_symlink \
+    ParameterDB_flash_ParameterDB_flash_symlink \
+    ParameterDB_flashcali_ParameterDB_flashcali_symlink \
+    ParameterDB_ParameterDB_symlink \
+    sw_top_control_data_sw_top_control_data_symlink \
+    top_control_data_top_control_data_symlink \
+    ParameterDB_pd_ParameterDB_pd_symlink \
+    ParameterDB_pipeline_ParameterDB_pipeline_symlink \
+    ParameterDB_tone_ParameterDB_tone_symlink \
+    ISP_mapping_ISP_mapping_symlink \
+    ISP_param_ISP_param_symlink \
+    ISP_mapping_ISP_mapping_symlink_1 \
+    ISP_param_ISP_param_symlink_1 \
+    ISP_mapping_ISP_mapping_symlink_2 \
+    ISP_param_ISP_param_symlink_2 \
+    ISP_mapping_ISP_mapping_symlink_3 \
+    ISP_param_ISP_param_symlink_3 \
+    ISP_mapping_ISP_mapping_symlink_4 \
+    ISP_param_ISP_param_symlink_4 \
+    ISP_mapping_ISP_mapping_symlink_5 \
+    ISP_param_ISP_param_symlink_5 \
+    ISP_mapping_ISP_mapping_symlink_6 \
+    ISP_param_ISP_param_symlink_6 \
+    ISP_mapping_ISP_mapping_symlink_7 \
+    ISP_param_ISP_param_symlink_7 \
+    ISP_mapping_ISP_mapping_symlink_8 \
+    ISP_param_ISP_param_symlink_8 \
+    ISP_mapping_ISP_mapping_symlink_9 \
+    ISP_param_ISP_param_symlink_9 \
+    ISP_mapping_ISP_mapping_symlink_10 \
+    ISP_param_ISP_param_symlink_10 \
+    ISP_mapping_ISP_mapping_symlink_11 \
+    ISP_param_ISP_param_symlink_11 \
+    ISP_mapping_ISP_mapping_symlink_12 \
+    ISP_param_ISP_param_symlink_12 \
+    ISP_mapping_ISP_mapping_symlink_13 \
+    ISP_param_ISP_param_symlink_13 \
+    ISP_mapping_ISP_mapping_symlink_14 \
+    ISP_param_ISP_param_symlink_14 \
+    ISP_mapping_ISP_mapping_symlink_15 \
+    ISP_param_ISP_param_symlink_15 \
+    ISP_mapping_ISP_mapping_symlink_16 \
+    ISP_param_ISP_param_symlink_16 \
+    ISP_mapping_ISP_mapping_symlink_17 \
+    ISP_param_ISP_param_symlink_17 \
+    ISP_mapping_ISP_mapping_symlink_18 \
+    ISP_param_ISP_param_symlink_18 \
+    ISP_mapping_ISP_mapping_symlink_19 \
+    ISP_param_ISP_param_symlink_19 \
+    ISP_mapping_ISP_mapping_symlink_20 \
+    ISP_param_ISP_param_symlink_20 \
+    ISP_info_ISP_info_symlink \
+    ISP_mapping_ISP_mapping_symlink_21 \
+    ISP_param_ISP_param_symlink_21 \
+    ISP_mapping_ISP_mapping_symlink_22 \
+    ISP_param_ISP_param_symlink_22 \
+    ISP_mapping_ISP_mapping_symlink_23 \
+    ISP_param_ISP_param_symlink_23 \
+    ISP_mapping_ISP_mapping_symlink_24 \
+    ISP_param_ISP_param_symlink_24 \
+    ISP_mapping_ISP_mapping_symlink_25 \
+    ISP_param_ISP_param_symlink_25 \
+    ISP_mapping_ISP_mapping_symlink_26 \
+    ISP_param_ISP_param_symlink_26 \
+    ISP_mapping_ISP_mapping_symlink_27 \
+    ISP_param_ISP_param_symlink_27 \
+    ISP_info_ISP_info_symlink_1 \
     android.hardware.graphics.allocator-V2-service-mediatek_android.hardware.graphics_symlink \
+    arm.mali.platform-service.mediatek_arm.mali.platform-service.mediatek_symlink \
+    camerahalserver_camerahalserver_symlink \
     libGLES_mali_libGLES_mali_symlink64 \
+    audio.r_submix.mediatek_audio.r_submix.mt6878_symlink64 \
+    android.hardware.camera.provider@2.6-impl-mediatek_android.hardware.camera.provider@2.6-impl-mediatek_symlink64 \
     android.hardware.graphics.allocator-V2-mediatek_android.hardware.graphics.allocator-V2-mediatek_symlink64 \
     android.hardware.graphics.mapper@4.0-impl-mediatek_android.hardware.graphics.mapper@4.0-impl-mediatek_symlink64 \
     mapper.mediatek_mapper.mediatek_symlink64 \
+    vendor.mediatek.hardware.camera.atms@1.0-impl_vendor.mediatek.hardware.camera.atms@1.0-impl_symlink64 \
+    vendor.mediatek.hardware.camera.bgservice@1.1-impl_vendor.mediatek.hardware.camera.bgservice@1.1-impl_symlink64 \
+    vendor.mediatek.hardware.camera.isphal@1.1-impl_vendor.mediatek.hardware.camera.isphal@1.1-impl_symlink64 \
     vulkan.mali_vulkan.mali_symlink64 \
     arm.graphics-V4-ndk_arm.graphics-V4-ndk_symlink64 \
     arm.mali.platform-V2-ndk_arm.mali.platform-V2-ndk_symlink64 \
@@ -2633,13 +2269,377 @@ PRODUCT_PACKAGES += \
     gc08a8syx_mipi_raw_tuning_gc08a8syx_mipi_raw_tuning_symlink64 \
     gc08a8xl_mipi_raw_IdxMgr_gc08a8xl_mipi_raw_IdxMgr_symlink64 \
     gc08a8xl_mipi_raw_tuning_gc08a8xl_mipi_raw_tuning_symlink64 \
+    gc16b3c_mipi_raw_IdxMgr_gc16b3c_mipi_raw_IdxMgr_symlink64 \
+    gc16b3c_mipi_raw_tuning_gc16b3c_mipi_raw_tuning_symlink64 \
     gc16b3cofilm_mipi_raw_IdxMgr_gc16b3cofilm_mipi_raw_IdxMgr_symlink64 \
     gc16b3cofilm_mipi_raw_tuning_gc16b3cofilm_mipi_raw_tuning_symlink64 \
+    gc16b3ctxd_mipi_raw_IdxMgr_gc16b3ctxd_mipi_raw_IdxMgr_symlink64 \
+    gc16b3ctxd_mipi_raw_tuning_gc16b3ctxd_mipi_raw_tuning_symlink64 \
     gc16b3cxl_mipi_raw_IdxMgr_gc16b3cxl_mipi_raw_IdxMgr_symlink64 \
     gc16b3cxl_mipi_raw_tuning_gc16b3cxl_mipi_raw_tuning_symlink64 \
+    imx882_mipi_raw_IdxMgr_imx882_mipi_raw_IdxMgr_symlink64 \
+    imx882_mipi_raw_tuning_imx882_mipi_raw_tuning_symlink64 \
+    imx882txd_mipi_raw_IdxMgr_imx882txd_mipi_raw_IdxMgr_symlink64 \
+    imx882txd_mipi_raw_tuning_imx882txd_mipi_raw_tuning_symlink64 \
+    lib3a.ae_lib3a.ae_symlink64 \
+    lib3a.ae.stat_lib3a.ae.stat_symlink64 \
+    lib3a.af.assist.models1d_lib3a.af.assist.models1d_symlink64 \
+    lib3a.af.assist.models2d_lib3a.af.assist.models2d_symlink64 \
+    lib3a.af.assist_lib3a.af.assist_symlink64 \
+    lib3a.af.assist.utils_lib3a.af.assist.utils_symlink64 \
+    lib3a.af.core_lib3a.af.core_symlink64 \
+    lib3a.af_lib3a.af_symlink64 \
+    lib3a.aishutter_lib3a.aishutter_symlink64 \
+    lib3a.alsflicker_lib3a.alsflicker_symlink64 \
+    lib3a.awb.core_lib3a.awb.core_symlink64 \
+    lib3a.awbsync_lib3a.awbsync_symlink64 \
+    lib3a.cculog_lib3a.cculog_symlink64 \
+    lib3a.custom.ae.flow_lib3a.custom.ae.flow_symlink64 \
+    lib3a.custom.ae_lib3a.custom.ae_symlink64 \
+    lib3a.custom.af.flow_lib3a.custom.af.flow_symlink64 \
+    lib3a.custom.awb.flow_lib3a.custom.awb.flow_symlink64 \
+    lib3a.custom.stt.flow_lib3a.custom.stt.flow_symlink64 \
+    lib3a.flash_lib3a.flash_symlink64 \
+    lib3a.flicker_lib3a.flicker_symlink64 \
+    lib3a.log_lib3a.log_symlink64 \
+    lib3a.sensors.color_lib3a.sensors.color_symlink64 \
+    lib3a.sensors.flicker_lib3a.sensors.flicker_symlink64 \
+    lib3a.stat_lib3a.stat_symlink64 \
+    libDBAccessor_ISP_libDBAccessor_ISP_symlink64 \
+    libDR_libDR_symlink64 \
+    libMtkMediaController_libMtkMediaController_symlink64 \
+    libMtkMediaController_SAL_libMtkMediaController_SAL_symlink64 \
+    libSonyIMX519PdafWrapper_libSonyIMX519PdafWrapper_symlink64 \
+    lib_bsscore_lib_bsscore_symlink64 \
+    libaaa_feature_libaaa_feature_symlink64 \
+    libaaa_ltm_libaaa_ltm_symlink64 \
+    libaaa_ltmx_libaaa_ltmx_symlink64 \
+    libaaa_tnc_libaaa_tnc_symlink64 \
+    libaaa_toneutil_libaaa_toneutil_symlink64 \
+    libaalservice_libaalservice_symlink64 \
+    libaiawb_fs_libaiawb_fs_symlink64 \
+    libaiawb_fs_model_libaiawb_fs_model_symlink64 \
+    libaiawb_moon_libaiawb_moon_symlink64 \
+    libaiawb_moon_model_libaiawb_moon_model_symlink64 \
+    libaiawb_p1ggm_libaiawb_p1ggm_symlink64 \
+    libaiawb_sun_libaiawb_sun_symlink64 \
+    libaiawb_sun_model_libaiawb_sun_model_symlink64 \
+    libaibc_tuning_libaibc_tuning_symlink64 \
+    libaibc_tuning_p2_libaibc_tuning_p2_symlink64 \
+    libaibc_tuning_p3_libaibc_tuning_p3_symlink64 \
+    libaibc_tuning_p4_libaibc_tuning_p4_symlink64 \
+    libaicapturecore_libaicapturecore_symlink64 \
+    libaidepth_tuning_libaidepth_tuning_symlink64 \
+    libaiseg_cache_libaiseg_cache_symlink64 \
+    libaiseg_model_libaiseg_model_symlink64 \
+    libaiseg_p1ggm_libaiseg_p1ggm_symlink64 \
+    libaiseg_sun_libaiseg_sun_symlink64 \
+    libaiselector_libaiselector_symlink64 \
+    libalgo.aosp.log_libalgo.aosp.log_symlink64 \
+    libapiwrapper_libapiwrapper_symlink64 \
+    libapudcutils_libapudcutils_symlink64 \
     libarm_egl_properties_sysprop_libarm_egl_properties_sysprop_symlink64 \
     libarm_gralloc_properties_sysprop_libarm_gralloc_properties_sysprop_symlink64 \
+    libcam.3a_isp.utils_libcam.3a_isp.utils_symlink64 \
+    libcam.afmgr_libcam.afmgr_symlink64 \
+    libcam.chdr_libcam.chdr_symlink64 \
+    libcam.feature_utils_libcam.feature_utils_symlink64 \
+    libcam.fw_me_tcy_libcam.fw_me_tcy_symlink64 \
+    libcam.hal3a.3aProvider_libcam.hal3a.3aProvider_symlink64 \
+    libcam.hal3a.afassitmgr_libcam.hal3a.afassitmgr_symlink64 \
+    libcam.hal3a.cctsvr.v4l2_libcam.hal3a.cctsvr.v4l2_symlink64 \
+    libcam.hal3a.ctrl_libcam.hal3a.ctrl_symlink64 \
+    libcam.hal3a.custom_libcam.hal3a.custom_symlink64 \
+    libcam.hal3a.guard_libcam.hal3a.guard_symlink64 \
+    libcam.hal3a.ircutdrv_libcam.hal3a.ircutdrv_symlink64 \
+    libcam.hal3a.lensdrv_libcam.hal3a.lensdrv_symlink64 \
+    libcam.hal3a.log_libcam.hal3a.log_symlink64 \
+    libcam.hal3a.lscMgrApi_libcam.hal3a.lscMgrApi_symlink64 \
+    libcam.hal3a.oisdrv_libcam.hal3a.oisdrv_symlink64 \
+    libcam.hal3a.ozoomdrv_libcam.hal3a.ozoomdrv_symlink64 \
+    libcam.hal3a.pdstatmgr_libcam.hal3a.pdstatmgr_symlink64 \
+    libcam.hal3a.policy_libcam.hal3a.policy_symlink64 \
+    libcam.hal3a_libcam.hal3a_symlink64 \
+    libcam.hal3a.tofdrv_libcam.hal3a.tofdrv_symlink64 \
+    libcam.hal3a.utils_libcam.hal3a.utils_symlink64 \
+    libcam.hal3a.v3.ae.v4l2_libcam.hal3a.v3.ae.v4l2_symlink64 \
+    libcam.hal3a.v3.ai3a_v4l2_libcam.hal3a.v3.ai3a_v4l2_symlink64 \
+    libcam.hal3a.v3.awb_v4l2_libcam.hal3a.v3.awb_v4l2_symlink64 \
+    libcam.hal3a.v3.dng_libcam.hal3a.v3.dng_symlink64 \
+    libcam.hal3a.v3.flash.v4l2_libcam.hal3a.v3.flash.v4l2_symlink64 \
+    libcam.hal3a.v3.flicker.v4l2_libcam.hal3a.v3.flicker.v4l2_symlink64 \
+    libcam.hal3a.v3.ir.v4l2_libcam.hal3a.v3.ir.v4l2_symlink64 \
+    libcam.hal3a.v3.lsctbl.v4l2_libcam.hal3a.v3.lsctbl.v4l2_symlink64 \
+    libcam.hal3a.v3.nvram.v4l2_libcam.hal3a.v3.nvram.v4l2_symlink64 \
+    libcam.hal3a.v3.sensor.v4l2_libcam.hal3a.v3.sensor.v4l2_symlink64 \
+    libcam.hal3a.v3.strobe_libcam.hal3a.v3.strobe_symlink64 \
+    libcam.hal3a.v3.stt_v4l2_libcam.hal3a.v3.stt_v4l2_symlink64 \
+    libcam.hal3a.v3.tone.mgr.v4l2_libcam.hal3a.v3.tone.mgr.v4l2_symlink64 \
+    libcam.halisp.SwTopCtrlMgr_libcam.halisp.SwTopCtrlMgr_symlink64 \
+    libcam.halisp.TopCtrlMgr_libcam.halisp.TopCtrlMgr_symlink64 \
+    libcam.halisp.TuningDataProvider_libcam.halisp.TuningDataProvider_symlink64 \
+    libcam.halisp.TuningDataProviderFactory_libcam.halisp.TuningDataProviderFactory_symlink64 \
+    libcam.halisp.imp.v4l2_libcam.halisp.imp.v4l2_symlink64 \
+    libcam.halisp.plugin_libcam.halisp.plugin_symlink64 \
+    libcam.halisp.utils_libcam.halisp.utils_symlink64 \
+    libcam.halisp.v4l2_libcam.halisp.v4l2_symlink64 \
+    libcam.halsensor.hwintegration_libcam.halsensor.hwintegration_symlink64 \
+    libcam.halsensor_libcam.halsensor_symlink64 \
+    libcam.isptuning.v4l2_libcam.isptuning.v4l2_symlink64 \
+    libcam.peripheralcontroller_libcam.peripheralcontroller_symlink64 \
+    libcam.sensor_mode_helper_libcam.sensor_mode_helper_symlink64 \
+    libcam.sensor_mode_helper_custom_libcam.sensor_mode_helper_custom_symlink64 \
+    libcam.tuningcachemgr_libcam.tuningcachemgr_symlink64 \
+    libcam.utils.sensorprovider_libcam.utils.sensorprovider_symlink64 \
+    libcam.vhdr_libcam.vhdr_symlink64 \
+    libcam_ipc_hal3a_client_libcam_ipc_hal3a_client_symlink64 \
+    libcam_ipc_nvbuf_client_libcam_ipc_nvbuf_client_symlink64 \
+    libcam_nothing_libcam_nothing_symlink64 \
+    libcamalgo.BSSwrapper_libcamalgo.BSSwrapper_symlink64 \
+    libcamalgo.InlineCompGyro_libcamalgo.InlineCompGyro_symlink64 \
+    libcamalgo.Mfbllwrapper_libcamalgo.Mfbllwrapper_symlink64 \
+    libcamalgo.aibc_libcamalgo.aibc_symlink64 \
+    libcamalgo.aibcwrapper_libcamalgo.aibcwrapper_symlink64 \
+    libcamalgo.ainr_libcamalgo.ainr_symlink64 \
+    libcamalgo.bss_libcamalgo.bss_symlink64 \
+    libcamalgo.c3d_libcamalgo.c3d_symlink64 \
+    libcamalgo.eis_libcamalgo.eis_symlink64 \
+    libcamalgo.fsc_libcamalgo.fsc_symlink64 \
+    libcamalgo.fus_libcamalgo.fus_symlink64 \
+    libcamalgo.gyro_libcamalgo.gyro_symlink64 \
+    libcamalgo.lmv_libcamalgo.lmv_symlink64 \
+    libcamalgo.lsc_libcamalgo.lsc_symlink64 \
+    libcamalgo.mcnr_libcamalgo.mcnr_symlink64 \
+    libcamalgo.mfnr_libcamalgo.mfnr_symlink64 \
+    libcamalgo.n3d_libcamalgo.n3d_symlink64 \
+    libcamalgo.platform2_libcamalgo.platform2_symlink64 \
+    libcamalgo.tsfs_libcamalgo.tsfs_symlink64 \
+    libcamalgo.vaidepth_libcamalgo.vaidepth_symlink64 \
+    libcamalgo.vsf_libcamalgo.vsf_symlink64 \
+    libcamera.custom.af_assist_buf_mgr_libcamera.custom.af_assist_buf_mgr_symlink64 \
+    libcamera.custom.af_assist_buf_mgr_open_libcamera.custom.af_assist_buf_mgr_open_symlink64 \
+    libcamera.custom.af_assist_mgr_libcamera.custom.af_assist_mgr_symlink64 \
+    libcamera.custom.af_assist_pdp_libcamera.custom.af_assist_pdp_symlink64 \
+    libcamera.customae_libcamera.customae_symlink64 \
+    libcamera.customflk_libcamera.customflk_symlink64 \
+    libcameracustom.camera.3a_libcameracustom.camera.3a_symlink64 \
+    libcameracustom.camera.isp_libcameracustom.camera.isp_symlink64 \
+    libcameracustom.camera.sensors_libcameracustom.camera.sensors_symlink64 \
+    libcameracustom.camera_calibration.core_libcameracustom.camera_calibration.core_symlink64 \
+    libcameracustom.camera_exif_libcameracustom.camera_exif_symlink64 \
+    libcameracustom.cfg_setting.core_libcameracustom.cfg_setting.core_symlink64 \
+    libcameracustom.eis_libcameracustom.eis_symlink64 \
+    libcameracustom.flashlight_libcameracustom.flashlight_symlink64 \
+    libcameracustom.imgsensor.core_libcameracustom.imgsensor.core_symlink64 \
+    libcameracustom.lens_libcameracustom.lens_symlink64 \
+    libcameracustom.plugin_libcameracustom.plugin_symlink64 \
+    libcameracustom_libcameracustom_symlink64 \
+    libcameracustom_camera_db_ext_libcameracustom_camera_db_ext_symlink64 \
+    libccd_libccd_symlink64 \
+    libdpframework_libdpframework_symlink64 \
+    libeffecthal.base_libeffecthal.base_symlink64 \
+    libfacerelight_libfacerelight_symlink64 \
+    libfeature.aiseg_libfeature.aiseg_symlink64 \
+    libfeature.face_libfeature.face_symlink64 \
+    libfeature.fwmvp_libfeature.fwmvp_symlink64 \
+    libfeature.mcnr_libfeature.mcnr_symlink64 \
+    libfeature.stereo.platform_libfeature.stereo.platform_symlink64 \
+    libfeature.stereo.provider_libfeature.stereo.provider_symlink64 \
+    libfeature.vsdof.3a_info_provider_libfeature.vsdof.3a_info_provider_symlink64 \
+    libfeature.vsdof.fd_info_provider_libfeature.vsdof.fd_info_provider_symlink64 \
+    libfeature.vsdof.hal_libfeature.vsdof.hal_symlink64 \
+    libfeature.vsdof.nvram_provider_libfeature.vsdof.nvram_provider_symlink64 \
+    libfeature.vsdof.ot_info_provider_libfeature.vsdof.ot_info_provider_symlink64 \
+    libfeature_eis_libfeature_eis_symlink64 \
+    libfeature_fsc_libfeature_fsc_symlink64 \
+    libfeature_vrp_libfeature_vrp_symlink64 \
+    libfeatureiodrv_mem_libfeatureiodrv_mem_symlink64 \
+    libfeaturepolicy_dbhandler_libfeaturepolicy_dbhandler_symlink64 \
+    libgpudataproducer_libgpudataproducer_symlink64 \
+    libimgstream-custom_libimgstream-custom_symlink64 \
+    libimgstream-drv_libimgstream-drv_symlink64 \
+    libimgstream-guard_libimgstream-guard_symlink64 \
+    libimgsys_adl_libimgsys_adl_symlink64 \
+    libimgsys_cmt_libimgsys_cmt_symlink64 \
+    libimgsys_custom_libimgsys_custom_symlink64 \
+    libimgsys_daemon_libimgsys_daemon_symlink64 \
+    libimgsys_dip_libimgsys_dip_symlink64 \
+    libimgsys_drvcommon_libimgsys_drvcommon_symlink64 \
+    libimgsys_gce_libimgsys_gce_symlink64 \
+    libimgsys_main_libimgsys_main_symlink64 \
+    libimgsys_me_libimgsys_me_symlink64 \
+    libimgsys_pqdip_libimgsys_pqdip_symlink64 \
+    libimgsys_sensor_libimgsys_sensor_symlink64 \
+    libimgsys_system_libimgsys_system_symlink64 \
+    libimgsys_taskhandler_libimgsys_taskhandler_symlink64 \
+    libimgsys_tdrhal_libimgsys_tdrhal_symlink64 \
+    libimgsys_tile_libimgsys_tile_symlink64 \
+    libimgsys_traw_libimgsys_traw_symlink64 \
+    libimgsys_utils_libimgsys_utils_symlink64 \
+    libimgsys_v4l2_libimgsys_v4l2_symlink64 \
+    libimgsys_wpe_libimgsys_wpe_symlink64 \
+    libispfeature_mtkcam.v4l2_libispfeature_mtkcam.v4l2_symlink64 \
+    libispinterpreter_mtkcam_libispinterpreter_mtkcam_symlink64 \
+    liblpnr_liblpnr_symlink64 \
+    libmfllcore_libmfllcore_symlink64 \
+    libmgr3a.adapt_libmgr3a.adapt_symlink64 \
+    libmmagent_libmmagent_symlink64 \
+    libmml_libmml_symlink64 \
+    libmmlpqImpl_libmmlpqImpl_symlink64 \
+    libmnl_libmnl_symlink64 \
+    libmorpho_RawDeepDenoise_libmorpho_RawDeepDenoise_symlink64 \
+    libmorpho_video_stabilizer_libmorpho_video_stabilizer_symlink64 \
+    libmtk_drvb_libmtk_drvb_symlink64 \
+    libmtkcam.atmseventmgr_libmtkcam.atmseventmgr_symlink64 \
+    libmtkcam.debugwrapper_libmtkcam.debugwrapper_symlink64 \
+    libmtkcam.eventcallback_libmtkcam.eventcallback_symlink64 \
+    libmtkcam.featurepipe.capture_libmtkcam.featurepipe.capture_symlink64 \
+    libmtkcam.featurepipe.depthmap_libmtkcam.featurepipe.depthmap_symlink64 \
+    libmtkcam.featurepipe.p2g_libmtkcam.featurepipe.p2g_symlink64 \
+    libmtkcam.featurepipe.streaming_libmtkcam.featurepipe.streaming_symlink64 \
+    libmtkcam.featurepipe.vsdof.wrapper_libmtkcam.featurepipe.vsdof.wrapper_symlink64 \
+    libmtkcam.logicalcaminfoprovider_libmtkcam.logicalcaminfoprovider_symlink64 \
+    libmtkcam.logicalmodule_libmtkcam.logicalmodule_symlink64 \
+    libmtkcam.ndd.limit_libmtkcam.ndd.limit_symlink64 \
+    libmtkcam_aicolor_libmtkcam_aicolor_symlink64 \
+    libmtkcam_aie_libmtkcam_aie_symlink64 \
+    libmtkcam_android_zslprocessor_libmtkcam_android_zslprocessor_symlink64 \
+    libmtkcam_aov_libmtkcam_aov_symlink64 \
+    libmtkcam_aov_cust_libmtkcam_aov_cust_symlink64 \
+    libmtkcam_aov_plat_libmtkcam_aov_plat_symlink64 \
+    libmtkcam_aov_sys_libmtkcam_aov_sys_symlink64 \
+    libmtkcam_buffer_flush_libmtkcam_buffer_flush_symlink64 \
+    libmtkcam_c2psperfctrl_libmtkcam_c2psperfctrl_symlink64 \
+    libmtkcam_ca_libmtkcam_ca_symlink64 \
+    libmtkcam_calibration_provider_libmtkcam_calibration_provider_symlink64 \
+    libmtkcam_camcontroller_libmtkcam_camcontroller_symlink64 \
+    libmtkcam_camcoordinator_libmtkcam_camcoordinator_symlink64 \
+    libmtkcam_camctrl_libmtkcam_camctrl_symlink64 \
+    libmtkcam_camdeliver_libmtkcam_camdeliver_symlink64 \
+    libmtkcam_camsys_sensor_utils_libmtkcam_camsys_sensor_utils_symlink64 \
+    libmtkcam_coredev_libmtkcam_coredev_symlink64 \
+    libmtkcam_custom.calibration_convertor_libmtkcam_custom.calibration_convertor_symlink64 \
+    libmtkcam_custom.metadata_libmtkcam_custom.metadata_symlink64 \
+    libmtkcam_custom.policy_libmtkcam_custom.policy_symlink64 \
+    libmtkcam_custom_sampleselector_libmtkcam_custom_sampleselector_symlink64 \
+    libmtkcam_custom_zsdhdrselector_libmtkcam_custom_zsdhdrselector_symlink64 \
+    libmtkcam_custzone_libmtkcam_custzone_symlink64 \
+    libmtkcam_debugutils_libmtkcam_debugutils_symlink64 \
+    libmtkcam_detectnode_libmtkcam_detectnode_symlink64 \
+    libmtkcam_devicemgr_libmtkcam_devicemgr_symlink64 \
+    libmtkcam_diputils_libmtkcam_diputils_symlink64 \
+    libmtkcam_dma_map_libmtkcam_dma_map_symlink64 \
+    libmtkcam_exif_libmtkcam_exif_symlink64 \
+    libmtkcam_externalisploader_libmtkcam_externalisploader_symlink64 \
+    libmtkcam_faceResultHandler_libmtkcam_faceResultHandler_symlink64 \
+    libmtkcam_feature_utils_libmtkcam_feature_utils_symlink64 \
+    libmtkcam_grallocutils_libmtkcam_grallocutils_symlink64 \
+    libmtkcam_hal3a_provider_libmtkcam_hal3a_provider_symlink64 \
+    libmtkcam_hal_aidl_common_libmtkcam_hal_aidl_common_symlink64 \
+    libmtkcam_hal_aidl_device_libmtkcam_hal_aidl_device_symlink64 \
+    libmtkcam_hal_aidl_provider_libmtkcam_hal_aidl_provider_symlink64 \
+    libmtkcam_hal_aidl_utils_libmtkcam_hal_aidl_utils_symlink64 \
+    libmtkcam_hal_android_app_cbadaptor_libmtkcam_hal_android_app_cbadaptor_symlink64 \
+    libmtkcam_hal_android_common_libmtkcam_hal_android_common_symlink64 \
+    libmtkcam_hal_android_device_libmtkcam_hal_android_device_symlink64 \
+    libmtkcam_hal_android_provider_libmtkcam_hal_android_provider_symlink64 \
+    libmtkcam_hal_android_utils_libmtkcam_hal_android_utils_symlink64 \
+    libmtkcam_hal_aov_libmtkcam_hal_aov_symlink64 \
+    libmtkcam_hal_core_app_libmtkcam_hal_core_app_symlink64 \
+    libmtkcam_hal_core_app_cbadaptor_libmtkcam_hal_core_app_cbadaptor_symlink64 \
+    libmtkcam_hal_core_device_libmtkcam_hal_core_device_symlink64 \
+    libmtkcam_hal_core_devicesessionpolicy_libmtkcam_hal_core_devicesessionpolicy_symlink64 \
+    libmtkcam_hal_core_featurepolicy_libmtkcam_hal_core_featurepolicy_symlink64 \
+    libmtkcam_hal_core_provider_libmtkcam_hal_core_provider_symlink64 \
+    libmtkcam_hal_core_utils_libmtkcam_hal_core_utils_symlink64 \
+    libmtkcam_hal_custom_libmtkcam_hal_custom_symlink64 \
+    libmtkcam_hal_custom_provider_libmtkcam_hal_custom_provider_symlink64 \
+    libmtkcam_hal_hidl_common_libmtkcam_hal_hidl_common_symlink64 \
+    libmtkcam_hal_hidl_device_libmtkcam_hal_hidl_device_symlink64 \
+    libmtkcam_hal_hidl_provider_libmtkcam_hal_hidl_provider_symlink64 \
+    libmtkcam_hal_hidl_utils_libmtkcam_hal_hidl_utils_symlink64 \
+    libmtkcam_halisp_custom_libmtkcam_halisp_custom_symlink64 \
+    libmtkcam_hwnode.jpegnode_libmtkcam_hwnode.jpegnode_symlink64 \
+    libmtkcam_hwnode.p2_libmtkcam_hwnode.p2_symlink64 \
+    libmtkcam_hwnode_libmtkcam_hwnode_symlink64 \
+    libmtkcam_hwutils_libmtkcam_hwutils_symlink64 \
+    libmtkcam_hwutils_android_libmtkcam_hwutils_android_symlink64 \
+    libmtkcam_hwutils_poweronoffcontroller_libmtkcam_hwutils_poweronoffcontroller_symlink64 \
+    libmtkcam_imgbuf_v2_libmtkcam_imgbuf_v2_symlink64 \
+    libmtkcam_ipc_core_libmtkcam_ipc_core_symlink64 \
+    libmtkcam_ipc_wrapper_common_client_libmtkcam_ipc_wrapper_common_client_symlink64 \
+    libmtkcam_ipc_wrapper_common_server_libmtkcam_ipc_wrapper_common_server_symlink64 \
+    libmtkcam_ipc_wrapper_mtk_client_libmtkcam_ipc_wrapper_mtk_client_symlink64 \
+    libmtkcam_ipc_wrapper_mtk_server_libmtkcam_ipc_wrapper_mtk_server_symlink64 \
+    libmtkcam_jsonconvertor_libmtkcam_jsonconvertor_symlink64 \
+    libmtkcam_jsondata_libmtkcam_jsondata_symlink64 \
+    libmtkcam_mapping_mgr_libmtkcam_mapping_mgr_symlink64 \
+    libmtkcam_metaconv_libmtkcam_metaconv_symlink64 \
+    libmtkcam_metadata_libmtkcam_metadata_symlink64 \
+    libmtkcam_metastore_libmtkcam_metastore_symlink64 \
+    libmtkcam_modulefactory_custom_libmtkcam_modulefactory_custom_symlink64 \
+    libmtkcam_modulefactory_utils_libmtkcam_modulefactory_utils_symlink64 \
+    libmtkcam_modulehelper_libmtkcam_modulehelper_symlink64 \
+    libmtkcam_p1node_libmtkcam_p1node_symlink64 \
+    libmtkcam_packutils_libmtkcam_packutils_symlink64 \
+    libmtkcam_perfctrl_libmtkcam_perfctrl_symlink64 \
+    libmtkcam_pip_libmtkcam_pip_symlink64 \
+    libmtkcam_pipeline_libmtkcam_pipeline_symlink64 \
+    libmtkcam_pipeline_fbm_libmtkcam_pipeline_fbm_symlink64 \
+    libmtkcam_pipelinemodel_capture_libmtkcam_pipelinemodel_capture_symlink64 \
+    libmtkcam_pipelinemodel_session_libmtkcam_pipelinemodel_session_symlink64 \
+    libmtkcam_pipelinemodel_utils_libmtkcam_pipelinemodel_utils_symlink64 \
+    libmtkcam_pipelinepolicy-security_libmtkcam_pipelinepolicy-security_symlink64 \
+    libmtkcam_pipelinepolicy-smvr_libmtkcam_pipelinepolicy-smvr_symlink64 \
+    libmtkcam_pipelinepolicy_libmtkcam_pipelinepolicy_symlink64 \
+    libmtkcam_pipelinepolicy_factory_libmtkcam_pipelinepolicy_factory_symlink64 \
+    libmtkcam_pipemgr_libmtkcam_pipemgr_symlink64 \
+    libmtkcam_postprocprovider_libmtkcam_postprocprovider_symlink64 \
+    libmtkcam_preprocnode_libmtkcam_preprocnode_symlink64 \
+    libmtkcam_prerelease_libmtkcam_prerelease_symlink64 \
+    libmtkcam_proc_libmtkcam_proc_symlink64 \
+    libmtkcam_request_requlator_libmtkcam_request_requlator_symlink64 \
+    libmtkcam_resourcedecision_libmtkcam_resourcedecision_symlink64 \
+    libmtkcam_resourcedecision_custom_libmtkcam_resourcedecision_custom_symlink64 \
+    libmtkcam_salmgr_libmtkcam_salmgr_symlink64 \
+    libmtkcam_sensorcontrol_libmtkcam_sensorcontrol_symlink64 \
+    libmtkcam_simager_libmtkcam_simager_symlink64 \
+    libmtkcam_smvr_libmtkcam_smvr_symlink64 \
+    libmtkcam_streamutils_libmtkcam_streamutils_symlink64 \
+    libmtkcam_synchelper_libmtkcam_synchelper_symlink64 \
+    libmtkcam_sysutils_libmtkcam_sysutils_symlink64 \
+    libmtkcam_taskmgr_libmtkcam_taskmgr_symlink64 \
+    libmtkcam_thirdparty.core_libmtkcam_thirdparty.core_symlink64 \
+    libmtkcam_thirdparty.customer_libmtkcam_thirdparty.customer_symlink64 \
+    libmtkcam_thirdparty.customzone_libmtkcam_thirdparty.customzone_symlink64 \
+    libmtkcam_thirdparty.mtk_libmtkcam_thirdparty.mtk_symlink64 \
+    libmtkcam_thirdparty_libmtkcam_thirdparty_symlink64 \
+    libmtkcam_tuning_utils_libmtkcam_tuning_utils_symlink64 \
+    libmtkcam_ulog_libmtkcam_ulog_symlink64 \
+    libmtkcam_zsl_customselector_libmtkcam_zsl_customselector_symlink64 \
+    libmtkcm_ipc_dummy_libmtkcm_ipc_dummy_symlink64 \
+    libneuralnetworks_sl_driver_mtk_prebuilt_libneuralnetworks_sl_driver_mtk_prebuilt_symlink64 \
+    libneuron_adapter_mc_libneuron_adapter_mc_symlink64 \
+    libneuron_adapter_mgvi_libneuron_adapter_mgvi_symlink64 \
+    libneuron_runtime.7_libneuron_runtime.7_symlink64 \
+    libneuron_runtime_libneuron_runtime_symlink64 \
+    libneuron_wrapper_libneuron_wrapper_symlink64 \
+    libnir_neon_driver_libnir_neon_driver_symlink64 \
+    libpda_usdriver_libpda_usdriver_symlink64 \
+    libpq_cust_base_libpq_cust_base_symlink64 \
+    libpq_sec_libpq_sec_symlink64 \
+    libpqconfig_libpqconfig_symlink64 \
+    libpqparamparser_libpqparamparser_symlink64 \
+    libvainr_model_libvainr_model_symlink64 \
+    libvega_face_libvega_face_symlink64 \
+    libwa_opticalzoomfactor_libwa_opticalzoomfactor_symlink64 \
+    mtk000_mipi_raw_IdxMgr_mtk000_mipi_raw_IdxMgr_symlink64 \
+    mtk000_mipi_raw_tuning_mtk000_mipi_raw_tuning_symlink64 \
     ov50d40ofilm_mipi_raw_IdxMgr_ov50d40ofilm_mipi_raw_IdxMgr_symlink64 \
     ov50d40ofilm_mipi_raw_tuning_ov50d40ofilm_mipi_raw_tuning_symlink64 \
     s5kgn9spofxian_mipi_raw_IdxMgr_s5kgn9spofxian_mipi_raw_IdxMgr_symlink64 \
-    s5kgn9spofxian_mipi_raw_tuning_s5kgn9spofxian_mipi_raw_tuning_symlink64
+    s5kgn9spofxian_mipi_raw_tuning_s5kgn9spofxian_mipi_raw_tuning_symlink64 \
+    sc202cs_mipi_raw_IdxMgr_sc202cs_mipi_raw_IdxMgr_symlink64 \
+    sc202cs_mipi_raw_tuning_sc202cs_mipi_raw_tuning_symlink64 \
+    sc202cssj_mipi_raw_IdxMgr_sc202cssj_mipi_raw_IdxMgr_symlink64 \
+    sc202cssj_mipi_raw_tuning_sc202cssj_mipi_raw_tuning_symlink64
